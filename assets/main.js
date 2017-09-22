@@ -12,7 +12,6 @@ $(document).ready(function() {
     	$('.link-block .register-link').show();
     	$('.link-block .reset-link').show();
     	$('.link-block .login-link').hide();
-    	// $('.link-block .login-link span').html('I already have an account.');
     	$('.login-form').fadeIn();
     });
     $(document).on('click', '#reset-password', function() {
